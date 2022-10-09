@@ -15,6 +15,7 @@
  ###### •	Which contain 8091 images with their id’s
  ###### •	This dataset also contains a caption file 
  ###### •	Caption file contain 5 captions for each image
+ ###### Dataset link: https://www.kaggle.com/datasets/adityajn105/flickr8k
  
 ## Model Architectural Diagram:
 
@@ -27,8 +28,11 @@
 ###### •	Add startseq and endseq
 ###### •	Create a vocabulary and count for words
 
+Graph to visualize most frequent words
 ![image](https://user-images.githubusercontent.com/115410634/194777909-d5c19a91-4eb7-4475-ab7d-22614ba546a5.png)
-                                Graph to visualize most frequent words
+ 
+ ### Model Diagram:
+ ![model](https://user-images.githubusercontent.com/115410634/194778351-5df38f29-72fd-4f29-b24f-978ba382b703.png)
 
 
 
