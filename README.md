@@ -1,36 +1,39 @@
 
 # Image Caption Generator: Project Overview
- ###### Whenever an image appears in front of us our brain is capable of annotating or labeling it, but what about computers? 
- ###### Now it is possible for computers to process an image and label it with a highly relevant and accurate caption.
- ###### •	Created a tool which is capable of generate very relevant captions for the image with the help of datasets.
- ###### •	Used two techniques of Deep learning including LSTM a type of Recurrent Neural Network and Convolutional Neural Networks (CNN).
- ###### •	This system includes the labeling of an image with English keywords with the help of datasets provided during model training. 
- ###### •	Flickr 8k dataset is used to train the CNN model called VGG16. 
- ###### •	VGG16 is responsible for image feature extraction. These extracted features will be fed to the LSTM model which in turn generates the image caption.
+Whenever an image appears in front of us our brain is capable of annotating or labeling it, but what about computers? 
+
+Now it is possible for computers to process an image and label it with a highly relevant and accurate caption.
+- Created a tool which is capable of generate very relevant captions for the image with the help of datasets.
+- Used two techniques of Deep learning including LSTM a type of Recurrent Neural Network and Convolutional Neural Networks (CNN).
+- This system includes the labeling of an image with English keywords with the help of datasets provided during model training. 
+- Flickr 8k dataset is used to train the CNN model called VGG16. 
+- VGG16 is responsible for image feature extraction. These extracted features will be fed to the LSTM model which in turn generates the image caption.
  
-### Dataset:
- ###### •	Flickr 8k dataset is used to train the model
- ###### •	Which contain 8091 images with their id’s
- ###### •	This dataset also contains a caption file 
- ###### •	Caption file contain 5 captions for each image
- ###### Dataset link: https://www.kaggle.com/datasets/adityajn105/flickr8k
+## Dataset:
+- Flickr 8k dataset is used to train the model
+- Which contain 8091 images with their id’s
+- This dataset also contains a caption file 
+- Caption file contain 5 captions for each image
+- Dataset link: https://www.kaggle.com/datasets/adityajn105/flickr8k
  
-## Model Architectural Diagram:
+System Architectural Diagram:
 
-![](https://user-images.githubusercontent.com/115410634/194777567-4ba3dc59-4632-4fe6-b450-4e4c12d15375.png)
+![Diagram](https://user-images.githubusercontent.com/115410634/194780752-9c08b87f-b153-44e5-be55-dea02f0dcc70.PNG)
 
-### Dataset Preprocessing:
-###### •	Convert images into a fixed size vector for passing into neural networks 
-###### •	In the Captions data we have applied cleaning
-###### •	Remove special characters
-###### •	Add startseq and endseq
-###### •	Create a vocabulary and count for words
+## Dataset Preprocessing:
+- Convert images into a fixed size vector for passing into neural networks 
+- In the Captions data we have applied cleaning
+- Remove special characters
+- Add startseq and endseq
+- Create a vocabulary and count for words
 
-Graph to visualize most frequent words
-![image](https://user-images.githubusercontent.com/115410634/194777909-d5c19a91-4eb7-4475-ab7d-22614ba546a5.png)
+Graph to visualize most frequent words:
+
+![5](https://user-images.githubusercontent.com/115410634/194780760-f83ab76c-8335-4107-87a7-967baf83188f.PNG)
  
  ### Model Diagram:
- ![model](https://user-images.githubusercontent.com/115410634/194778351-5df38f29-72fd-4f29-b24f-978ba382b703.png)
+ 
+ ![model](https://user-images.githubusercontent.com/115410634/194780803-7d942cec-1989-4f86-b4bc-1a66a3e221e3.png)
 
 
 
