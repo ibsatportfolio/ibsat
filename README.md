@@ -1,6 +1,4 @@
- # ibsat
- 
- 
+
 # Image Caption Generator: Project Overview
  ###### Whenever an image appears in front of us our brain is capable of annotating or labeling it, but what about computers? 
  ###### Now it is possible for computers to process an image and label it with a highly relevant and accurate caption.
