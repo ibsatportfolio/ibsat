@@ -8,7 +8,7 @@
  ###### •	Flickr 8k dataset is used to train the CNN model called VGG16. 
  ###### •	VGG16 is responsible for image feature extraction. These extracted features will be fed to the LSTM model which in turn generates the image caption.
  
-## Dataset:
+### Dataset:
  ###### •	Flickr 8k dataset is used to train the model
  ###### •	Which contain 8091 images with their id’s
  ###### •	This dataset also contains a caption file 
