@@ -11,7 +11,7 @@
  •	VGG16 is responsible for image feature extraction. These extracted features will be fed to the LSTM model which in turn generates the image caption.
  
 ## Dataset:
- •	Flickr 8k dataset is used to train the model
+ ### •	Flickr 8k dataset is used to train the model
  •	Which contain 8091 images with their id’s
  •	This dataset also contains a caption file 
  •	Caption file contain 5 captions for each image
